@@ -1,0 +1,111 @@
+{
+  "savedFile": "www.photopea.com\\img\\hand_phone.webp\\hand_phone.webp",
+  "url": "https://www.photopea.com/img/hand_phone.webp",
+  "request": {
+    "method": "GET",
+    "headers": {
+      "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "en-US,en;q=0.9",
+      "priority": "u=2, i",
+      "referer": "https://www.photopea.com/",
+      "sec-ch-ua": "\"Not;A=Brand\";v=\"99\", \"Google Chrome\";v=\"139\", \"Chromium\";v=\"139\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "image",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-site": "same-origin",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    "postData": null
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "server": "nginx",
+      "date": "Sat, 23 Aug 2025 14:03:14 GMT",
+      "content-type": "image/webp",
+      "content-length": "67560",
+      "last-modified": "Sun, 01 Sep 2024 14:53:18 GMT",
+      "connection": "keep-alive",
+      "cache-control": "max-age=3600",
+      "expires": "Sat, 23 Aug 2025 15:03:14 GMT",
+      "etag": "\"66d47fde-107e8\"",
+      "access-control-allow-origin": "*",
+      "accept-ranges": "bytes"
+    },
+    "contentType": "image/webp",
+    "contentLength": 67560
+  },
+  "harEntry": {
+    "startedDateTime": "2025-08-22T13:45:40.410Z",
+    "time": 1259.299999976065,
+    "timings": {
+      "blocked": 572.6370000223368,
+      "dns": -1,
+      "ssl": -1,
+      "connect": -1,
+      "send": 1.1380000000000001,
+      "wait": 405.3450000103712,
+      "receive": 280.17999994335696,
+      "_blocked_queueing": 571.0340000223368,
+      "_workerStart": -1,
+      "_workerReady": -1,
+      "_workerFetchStart": -1,
+      "_workerRespondWithSettled": -1
+    },
+    "serverIPAddress": "176.227.168.129",
+    "originalHarResponse": {
+      "status": 200,
+      "headers": [
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=3600"
+        },
+        {
+          "name": "content-length",
+          "value": "67560"
+        },
+        {
+          "name": "content-type",
+          "value": "image/webp"
+        },
+        {
+          "name": "date",
+          "value": "Fri, 22 Aug 2025 13:45:41 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "\"66d47fde-107e8\""
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 22 Aug 2025 14:45:41 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Sun, 01 Sep 2024 14:53:18 GMT"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        }
+      ],
+      "content": {
+        "mimeType": "image/webp",
+        "size": 67560,
+        "encoding": "base64"
+      }
+    }
+  },
+  "fetchedAt": "2025-08-23T14:03:15.947Z"
+}

@@ -1,0 +1,112 @@
+{
+  "savedFile": "www.photopea.com\\img\\goats.mp4\\goats.mp4",
+  "url": "https://www.photopea.com/img/goats.mp4",
+  "request": {
+    "method": "GET",
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "identity;q=1, *;q=0",
+      "accept-language": "en-US,en;q=0.9",
+      "priority": "i",
+      "range": "bytes=0-",
+      "referer": "https://www.photopea.com/",
+      "sec-ch-ua": "\"Not;A=Brand\";v=\"99\", \"Google Chrome\";v=\"139\", \"Chromium\";v=\"139\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "video",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-site": "same-origin",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    "postData": null
+  },
+  "response": {
+    "status": 206,
+    "statusText": "Partial Content",
+    "headers": {
+      "server": "nginx",
+      "date": "Sat, 23 Aug 2025 14:03:16 GMT",
+      "content-type": "video/mp4",
+      "content-length": "114734",
+      "last-modified": "Tue, 03 Sep 2024 16:08:28 GMT",
+      "connection": "keep-alive",
+      "cache-control": "max-age=3600",
+      "expires": "Sat, 23 Aug 2025 15:03:16 GMT",
+      "etag": "\"66d7347c-1c02e\"",
+      "access-control-allow-origin": "*",
+      "content-range": "bytes 0-114733/114734"
+    },
+    "contentType": "video/mp4",
+    "contentLength": 114734
+  },
+  "harEntry": {
+    "startedDateTime": "2025-08-22T13:45:41.154Z",
+    "time": 523.5180000308901,
+    "timings": {
+      "blocked": 3.852000035058707,
+      "dns": -1,
+      "ssl": -1,
+      "connect": -1,
+      "send": 0.3900000000000001,
+      "wait": 230.62100001373142,
+      "receive": 288.6549999821,
+      "_blocked_queueing": 1.694000035058707,
+      "_workerStart": -1,
+      "_workerReady": -1,
+      "_workerFetchStart": -1,
+      "_workerRespondWithSettled": -1
+    },
+    "serverIPAddress": "176.227.168.129",
+    "originalHarResponse": {
+      "status": 206,
+      "headers": [
+        {
+          "name": "Content-Length",
+          "value": "114734"
+        },
+        {
+          "name": "Content-Range",
+          "value": "bytes 0-114733/114734"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=3600"
+        },
+        {
+          "name": "content-type",
+          "value": "video/mp4"
+        },
+        {
+          "name": "date",
+          "value": "Fri, 22 Aug 2025 13:45:42 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "\"66d7347c-1c02e\""
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 22 Aug 2025 14:45:42 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Tue, 03 Sep 2024 16:08:28 GMT"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        }
+      ],
+      "content": {
+        "mimeType": "video/mp4",
+        "size": 114734,
+        "encoding": "base64"
+      }
+    }
+  },
+  "fetchedAt": "2025-08-23T14:03:17.999Z"
+}

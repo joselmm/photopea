@@ -1,0 +1,105 @@
+{
+  "savedFile": "www.photopea.com\\invalid.jpg\\invalid.jpg",
+  "url": "https://www.photopea.com/invalid.jpg",
+  "request": {
+    "method": "GET",
+    "headers": {
+      "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "en-US,en;q=0.9",
+      "priority": "i",
+      "referer": "https://www.photopea.com/",
+      "sec-ch-ua": "\"Not;A=Brand\";v=\"99\", \"Google Chrome\";v=\"139\", \"Chromium\";v=\"139\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "image",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-site": "same-origin",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    "postData": null
+  },
+  "response": {
+    "status": 404,
+    "statusText": "Not Found",
+    "headers": {
+      "server": "nginx",
+      "date": "Sat, 23 Aug 2025 14:03:15 GMT",
+      "content-type": "text/html",
+      "content-length": "597",
+      "connection": "keep-alive",
+      "last-modified": "Tue, 23 Apr 2019 16:09:24 GMT",
+      "etag": "\"3fe-58734cf062a07-gzip\"",
+      "accept-ranges": "bytes",
+      "vary": "Accept-Encoding,User-Agent"
+    },
+    "contentType": "text/html",
+    "contentLength": 1022
+  },
+  "harEntry": {
+    "startedDateTime": "2025-08-22T13:45:40.780Z",
+    "time": 609.7980000195093,
+    "timings": {
+      "blocked": 203.85299999512733,
+      "dns": -1,
+      "ssl": -1,
+      "connect": -1,
+      "send": 0.276,
+      "wait": 403.60500002413613,
+      "receive": 2.064000000245869,
+      "_blocked_queueing": 201.99299999512732,
+      "_workerStart": -1,
+      "_workerReady": -1,
+      "_workerFetchStart": -1,
+      "_workerRespondWithSettled": -1
+    },
+    "serverIPAddress": "176.227.168.129",
+    "originalHarResponse": {
+      "status": 404,
+      "headers": [
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "content-length",
+          "value": "597"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html"
+        },
+        {
+          "name": "date",
+          "value": "Fri, 22 Aug 2025 13:45:41 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "\"3fe-58734cf062a07-gzip\""
+        },
+        {
+          "name": "last-modified",
+          "value": "Tue, 23 Apr 2019 16:09:24 GMT"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding,User-Agent"
+        }
+      ],
+      "content": {
+        "mimeType": "text/html",
+        "size": 1022,
+        "encoding": null
+      }
+    }
+  },
+  "fetchedAt": "2025-08-23T14:03:15.250Z"
+}

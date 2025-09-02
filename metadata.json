@@ -1,0 +1,112 @@
+{
+  "savedFile": "www.photopea.com\\index.html",
+  "url": "https://www.photopea.com/",
+  "request": {
+    "method": "GET",
+    "headers": {
+      "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "en-US,en;q=0.9",
+      "priority": "u=0, i",
+      "sec-ch-ua": "\"Not;A=Brand\";v=\"99\", \"Google Chrome\";v=\"139\", \"Chromium\";v=\"139\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "document",
+      "sec-fetch-mode": "navigate",
+      "sec-fetch-site": "none",
+      "sec-fetch-user": "?1",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    "postData": null
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "server": "nginx",
+      "date": "Sat, 23 Aug 2025 14:03:14 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "last-modified": "Fri, 22 Aug 2025 22:38:17 GMT",
+      "transfer-encoding": "chunked",
+      "connection": "keep-alive",
+      "vary": "Accept-Encoding",
+      "cache-control": "max-age=3600",
+      "expires": "Sat, 23 Aug 2025 15:03:14 GMT",
+      "etag": "W/\"68a8f159-265f\"",
+      "access-control-allow-origin": "*"
+    },
+    "contentType": "text/html; charset=utf-8",
+    "contentLength": 9823
+  },
+  "harEntry": {
+    "startedDateTime": "2025-08-22T13:45:39.614Z",
+    "time": 939.6929999958389,
+    "timings": {
+      "blocked": 24.915000006034973,
+      "dns": 166.386,
+      "ssl": 194.83299999999997,
+      "connect": 549.384,
+      "send": 0.7540000000000191,
+      "wait": 196.5489999874011,
+      "receive": 1.7050000024028122,
+      "_blocked_queueing": 13.73000000603497,
+      "_workerStart": -1,
+      "_workerReady": -1,
+      "_workerFetchStart": -1,
+      "_workerRespondWithSettled": -1
+    },
+    "serverIPAddress": "176.227.168.129",
+    "originalHarResponse": {
+      "status": 200,
+      "headers": [
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=3600"
+        },
+        {
+          "name": "content-encoding",
+          "value": "br"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html; charset=utf-8"
+        },
+        {
+          "name": "date",
+          "value": "Fri, 22 Aug 2025 13:45:41 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"68a85a5a-265f\""
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 22 Aug 2025 14:45:41 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Fri, 22 Aug 2025 11:54:02 GMT"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        }
+      ],
+      "content": {
+        "mimeType": "text/html",
+        "size": 9823,
+        "encoding": null
+      }
+    }
+  },
+  "fetchedAt": "2025-08-23T14:03:14.545Z"
+}

@@ -1,0 +1,111 @@
+{
+  "savedFile": "www.photopea.com\\img\\nft.png\\nft.png",
+  "url": "https://www.photopea.com/img/nft.png",
+  "request": {
+    "method": "GET",
+    "headers": {
+      "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "en-US,en;q=0.9",
+      "priority": "i",
+      "referer": "https://www.photopea.com/",
+      "sec-ch-ua": "\"Not;A=Brand\";v=\"99\", \"Google Chrome\";v=\"139\", \"Chromium\";v=\"139\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "image",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-site": "same-origin",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    "postData": null
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "server": "nginx",
+      "date": "Sat, 23 Aug 2025 14:03:26 GMT",
+      "content-type": "image/png",
+      "content-length": "8168",
+      "last-modified": "Sat, 18 Jun 2022 16:23:27 GMT",
+      "connection": "keep-alive",
+      "cache-control": "max-age=1209600",
+      "expires": "Sat, 06 Sep 2025 14:03:26 GMT",
+      "etag": "\"62adfbff-1fe8\"",
+      "access-control-allow-origin": "*",
+      "accept-ranges": "bytes"
+    },
+    "contentType": "image/png",
+    "contentLength": 8168
+  },
+  "harEntry": {
+    "startedDateTime": "2025-08-22T13:46:15.288Z",
+    "time": 209.0629999875091,
+    "timings": {
+      "blocked": 1.9159999994561077,
+      "dns": -1,
+      "ssl": -1,
+      "connect": -1,
+      "send": 0.6239999999999999,
+      "wait": 205.2560000029616,
+      "receive": 1.2669999850913882,
+      "_blocked_queueing": 1.1159999994561076,
+      "_workerStart": -1,
+      "_workerReady": -1,
+      "_workerFetchStart": -1,
+      "_workerRespondWithSettled": -1
+    },
+    "serverIPAddress": "176.227.168.129",
+    "originalHarResponse": {
+      "status": 200,
+      "headers": [
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=1209600"
+        },
+        {
+          "name": "content-length",
+          "value": "8168"
+        },
+        {
+          "name": "content-type",
+          "value": "image/png"
+        },
+        {
+          "name": "date",
+          "value": "Fri, 22 Aug 2025 13:46:16 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "\"62adfbff-1fe8\""
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 05 Sep 2025 13:46:16 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Sat, 18 Jun 2022 16:23:27 GMT"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        }
+      ],
+      "content": {
+        "mimeType": "image/png",
+        "size": 8168,
+        "encoding": "base64"
+      }
+    }
+  },
+  "fetchedAt": "2025-08-23T14:03:26.315Z"
+}
