@@ -6,7 +6,7 @@ if(d)d.setItem("_ppp",JSON.stringify(v))};g.getItem=function(Z){return v[Z]};g.r
 if(d)d.setItem("_ppp",JSON.stringify(v))};if(j8==0){window.showCap=function(){x(!0)};window.hideCap=function(){x(!1)};
 function x(Z){document.getElementById("cap").setAttribute("style",Z?"":"display:none;");window.locStor.setItem("capShown",""+Z)}if(window.locStor.getItem("capShown")=="false"||window.self!=window.top){}else window.showCap()}}());
 var iP={a7:0,i_:null,oh:null,aKb:null,Di:null,Uz:null,ai3:!0,al$:0,Dr:!1};iP.event=function(d,v,t){if(j8!=0)return;
-if(v!=null&&v<Math.random())return;if(t==null)t=0;var h=new XMLHttpRequest;h.open("GET","/papi/event.php?id="+d+"&g="+t+"&rnd="+Math.random());
+if(v!=null&&v<Math.random())return;if(t==null)t=0;var h=new XMLHttpRequest;h.open("GET","//www.photopea.com/papi/event.php?id="+d+"&g="+t+"&rnd="+Math.random());
 h.send()};iP.$j=function(d){if(j8!=0)d="//www.photopea.com/"+d;return d};iP.nv=function(d){var v=location.href;
 if(v.indexOf("photopea.com")!=-1||v.indexOf("vectorpea.com")!=-1||v.indexOf("jampea.com")!=-1)return"//vecpea.com/"+d;
 return iP.$j(d)};iP.yU=function(){var d=iP.qP();if(d==null)return null;var v=u.jy(24)?" ":"",t=u.hm[u.RI("Uu,"+v)];
